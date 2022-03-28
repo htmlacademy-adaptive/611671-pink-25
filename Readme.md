@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Михаил Лупачев](https://up.htmlacademy.ru/adaptive/25/user/611671).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Рус](https://htmlacademy.ru/profile/vanillawulf).
 
 ---
 
