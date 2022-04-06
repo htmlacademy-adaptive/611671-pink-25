@@ -1,0 +1,34 @@
+.contacts__list {
+  margin: 0;
+}
+
+.contacts__questions {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.contacts__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.contacts__title + dd {
+  margin: 0;
+}
+
+.contacts__link {
+  color: $textColorFour;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+}
+
+.contacts__contact {
+  color: $textColorFour;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: normal;
+}

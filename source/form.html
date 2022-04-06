@@ -2,19 +2,19 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>PINK:Конкурс</title>
   </head>
   <body class="page-body">
     <header class="main-header">
-      <a class="main-header__logo">
-        <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <div class="main-nav__wrapper">
+      <div class="main-header__wrapper">
+        <a class="main-header__logo">
+          <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a class="site-list__item-link" href="index.html">
@@ -27,7 +27,7 @@
               </a>
             </li>
             <li class="site-list__item site-list__item--current">
-              <a class="site-list__item-link">
+              <a class="site-list__item-link" href="#">
                 Конкурс
               </a>
             </li>
@@ -37,8 +37,8 @@
               </a>
             </li>
           </ul> <!-- main-nav__list site-list -->
-        </div> <!-- main-nav__wrapper -->
-      </nav>
+        </nav>
+      </div>
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">Официальный сайт мобильного приложения PINK</h1>
@@ -173,7 +173,7 @@
             </fieldset>
             <section class="content-form__submit">
               <button class="content-form__button button" type="submit">Отправить форму</button>
-              <p class="form-button__footnote"><span class="form-button__star">*</span> — обязательные поля</p>
+              <p class="content-form__footnote"><span class="content-form__star">*</span> — обязательные поля</p>
             </section>
           </form>
         </div><!-- content-form__wrapper -->

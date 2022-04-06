@@ -1,0 +1,20 @@
+.effect {
+  display: none;
+}
+
+.effect__title {
+  margin: 0;
+  color: $textColorThree;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.effect__description {
+  margin: 0;
+}
+
+.effect__link {
+  color: $textColorFour;
+  text-decoration: none;
+}

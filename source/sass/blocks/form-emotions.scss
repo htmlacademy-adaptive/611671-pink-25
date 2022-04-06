@@ -1,0 +1,19 @@
+.form-emotions {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form-emotions__legend {
+  color: $textColorFour;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form-emotions__text-field {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 18px;
+  line-height: 30px;
+}
