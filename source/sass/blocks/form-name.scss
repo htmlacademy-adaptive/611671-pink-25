@@ -1,0 +1,24 @@
+.form-name {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form-name__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-name__lable {
+  color: $textColorFour;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.form-name__input {
+  font: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  color: inherit;
+}

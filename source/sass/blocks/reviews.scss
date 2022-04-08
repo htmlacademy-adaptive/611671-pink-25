@@ -1,0 +1,22 @@
+.reviews__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.reviews__autor {
+  margin: 0;
+  color: $textColorThree;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.reviws__legend {
+  line-height: 30px;
+}
+
+.reviews__comment {
+  margin: 0;
+  line-height: 30px;
+}

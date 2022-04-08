@@ -1,0 +1,23 @@
+.form-achievements {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: $backgroundColorFive;
+}
+
+.form-achievements__legend {
+  color: $textColorFour;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form-achievements__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-achievements__lable {
+  font-size: 18px;
+  line-height: 30px;
+}

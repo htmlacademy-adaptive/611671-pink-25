@@ -1,1 +1,33 @@
-// Начните писать стили здесь
+//base
+@import "base/variables.scss";
+@import "base/mixins.scss";
+@import "base/fonts.scss";
+@import "base/visually-hidden.scss";
+@import "base/global.scss";
+//blocks
+//index.html
+@import "blocks/main-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/download-app.scss";
+@import "blocks/platforms.scss";
+@import "blocks/description-app.scss";
+@import "blocks/effect.scss";
+@import "blocks/reviews.scss";
+@import "blocks/price.scss";
+@import "blocks/contacts.scss";
+@import "blocks/main-footer.scss";
+//form
+@import "blocks/form-title.scss";
+@import "blocks/form-name.scss";
+@import "blocks/form-achievements.scss";
+@import "blocks/form-contacts.scss";
+@import "blocks/form-platform.scss";
+@import "blocks/form-emotions.scss";
+@import "blocks/content-form.scss";
+@import "blocks/button.scss";
+//catalog
+@import "blocks/catalog-title.scss";
+@import "blocks/users-posts.scss";
+@import "blocks/edit-post.scss";
+@import "blocks/user-post.scss";

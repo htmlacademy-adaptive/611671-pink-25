@@ -2,22 +2,22 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>HTML Academy: Пинк</title>
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo">
-        <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <div class="main-nav__wrapper">
+      <div class="main-header__wrapper">
+        <a class="main-header__logo">
+          <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
           <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--current">
-              <a class="site-list__item-link">
+              <a class="site-list__item-link" href="#">
                 Главная
               </a>
             </li>
@@ -37,15 +37,15 @@
               </a>
             </li>
           </ul> <!-- main-nav__list site-list -->
-        </div> <!-- main-nav__wrapper -->
-      </nav>
+        </nav>
+      </div>
     </header>
     <main class="main-container">
       <h1 class="visually-hidden">Официальный сайт мобильного приложения PINK</h1>
       <h2 class="visually-hidden">Описание мобильного приложения PINK</h2>
       <article class="download-app">
         <div class="download-app__wrapper">
-          <p class="download-app__slogan">Взгялните на жизнь иначе!</p>
+          <p class="download-app__slogan">Взгляните на жизнь иначе!</p>
           <img class="download-app__image" src="img/phone-mobile.png" width="320" height="286"  alt="Изображение телефона с запущеным приложением PINK">
           <a class="download-app__link" href="#" download>Скачать приложение</a>
           <div class="download-app__platforms platforms">
@@ -111,27 +111,27 @@
                 Николай Петров
               </p>
               <span class="reviws__legend">25 лет, водитель трамвая</span>
-              <q class="reviews__comment">
-                Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
-              </q>
+              <p class="reviews__comment">
+                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
             </li>
             <li class="reviews__item slider__item">
               <p class="reviews__autor">
                 Николай Петров
               </p>
               <span class="reviws__legend">25 лет, водитель трамвая</span>
-              <q class="reviews__comment">
-                Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
-              </q>
+              <p class="reviews__comment">
+                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
             </li>
             <li class="reviews__item slider__item">
               <p class="reviews__autor">
                 Николай Петров
               </p>
               <span class="reviws__legend">25 лет, водитель трамвая</span>
-              <q class="reviews__comment">
-                Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!
-              </q>
+              <p class="reviews__comment">
+                «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+              </p>
             </li>
           </ul><!-- reviews__list -->
           <div class="reviews__toggles slider__toggles">
@@ -141,8 +141,8 @@
           </div><!-- reviews__toggles slider__toggles -->
         </div><!-- reviews__wrapper -->
       </section><!-- reviews -->
-      <section class="page-price">
-        <div class="page-price_wrapper">
+      <section class="price">
+        <div class="price_wrapper">
           <div class="price-for-mobile">
             <ul class="price-for-mobile__list">
               <li class="price-for-mobile__item">
@@ -150,27 +150,27 @@
                   <p class="price-for-mobile__name">База</p>
                   <p class="price-for-mobile__price">1,99 USD</p>
                 </div><!-- price-for-mobile__title -->
-                <p class="price-for-mobile__option-1 price-for-mobile__option-check">Розовый фильтр</p>
-                <p class="price-for-mobile__option-2 price-for-mobile__option-no">Смайлики</p>
-                <p class="price-for-mobile__option-3 price-for-mobile__option-no">Комментарии</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Розовый фильтр</p>
+                <p class="price-for-mobile__option price-for-mobile__option-no">Смайлики</p>
+                <p class="price-for-mobile__option price-for-mobile__option-no">Комментарии</p>
               </li>
               <li class="price-for-mobile__item">
                 <div class="price-for-mobile__title price-for-mobile__title--hit">
                   <p class="price-for-mobile__name">Стандарт</p>
                   <p class="price-for-mobile__price">3,99 USD</p>
                 </div><!-- price-for-mobile__title -->
-                <p class="price-for-mobile__option-1 price-for-mobile__option-check">Розовый фильтр</p>
-                <p class="price-for-mobile__option-2 price-for-mobile__option-check">Смайлики</p>
-                <p class="price-for-mobile__option-3 price-for-mobile__option-no">Комментарии</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Розовый фильтр</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Смайлики</p>
+                <p class="price-for-mobile__option price-for-mobile__option-no">Комментарии</p>
               </li>
               <li class="price-for-mobile__item">
                 <div class="price-for-mobile__title">
                   <p class="price-for-mobile__name">Анлим</p>
                   <p class="price-for-mobile__price">9,99 USD</p>
                 </div><!-- price-for-mobile__title -->
-                <p class="price-for-mobile__option-1 price-for-mobile__option-check">Розовый фильтр</p>
-                <p class="price-for-mobile__option-2 price-for-mobile__option-check">Смайлики</p>
-                <p class="price-for-mobile__option-3 price-for-mobile__option-check">Комментарии</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Розовый фильтр</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Смайлики</p>
+                <p class="price-for-mobile__option price-for-mobile__option-check">Комментарии</p>
               </li>
             </ul><!-- price-for-mobile__list -->
             <div class="price-for-mobile__toggles slider__toggles">
@@ -179,7 +179,7 @@
               <button class="slider__toggle" type="button">3</button>
             </div><!-- price-for-mobile__toggles slider__toggles -->
           </div><!-- price-for-mobile -->
-          <table class="price">
+          <table class="price__table">
             <tr>
               <th></th>
               <th class="price__table-header">
@@ -221,7 +221,7 @@
           <p class="contacts__questions">
             Остались вопросы? Свяжитесь с нами!
           </p>
-          <dl>
+          <dl class="contacts__list">
             <dt class="contacts__title">Звоните:</dt>
             <dd><a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a></dd>
             <dt class="contacts__title">Пишите:</dt>

@@ -1,0 +1,33 @@
+.edit-post__editor {
+  background-color: $backgroundColorFive;
+}
+
+.edit-post__slogan {
+  margin: 0;
+  line-height: 30px;
+}
+
+.edit-post__img-list,
+.edit-post__range-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.edit-post__button {
+  color: $textColorFour;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: transparent;
+  border: 3px solid $textColorFour;
+  border-radius: 30px;
+  width: 280px;
+  padding: 21px 0;
+  cursor: pointer;
+
+  &--reset {
+    color: rgba($textColorOne, 0.1);
+    border-color: rgba($textColorOne, 0.1);
+  }
+}

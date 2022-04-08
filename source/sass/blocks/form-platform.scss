@@ -1,0 +1,22 @@
+.form-platform {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: $backgroundColorFive;
+}
+
+.form-platform__legend {
+  color: $textColorFour;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form-platform__list {
+  margin: 0;
+  padding: 0;
+}
+
+.form-platform__label {
+  line-height: 30px;
+  font-size: 18px;
+}
