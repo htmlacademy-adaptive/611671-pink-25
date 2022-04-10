@@ -1,5 +1,16 @@
 .download-app {
   background-color: $backgroundColorTwo;
+  background-image: url("../../img/back-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.download-app__wrapper {
+  margin: 0 auto;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .download-app__slogan {
@@ -8,6 +19,13 @@
   font-size: 24px;
   font-weight: 300;
   line-height: 1.2;
+  text-align: center;
+  margin-bottom: 34px;
+  margin-top: 85px;
+}
+
+.download-app__image {
+  margin-bottom: 28px;
 }
 
 .download-app__link {
@@ -16,11 +34,92 @@
   font-size: 18px;
   line-height: 18px;
   text-decoration: none;
+  border: 3px solid $textColorTwo;
+  border-radius: 29px;
+  width: 280px;
+  padding: 21px 0;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
+.download-app__platforms {
+  margin-bottom: 28px;
+}
 
 .download-app__addition {
   margin: 0;
   font-weight: 300;
   color: $textColorTwo;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+@media (min-width: $tablet-width) {
+  .download-app {
+    background-image: url("../../img/back-tablet.png");
+    background-position: center top;
+  }
+
+  .download-app__wrapper {
+    width: 620px;
+    align-items: flex-start;
+  }
+
+  .download-app__slogan {
+    margin-top: 212px;
+    font-size: 40px;
+    width: 240px;
+    margin-bottom: 39px;
+  }
+
+  .download-app__image {
+    display: none;
+  }
+
+  .download-app__link {
+    width: 300px;
+    margin-bottom: 48px;
+  }
+
+  .download-app__platforms {
+    margin-left: 46px;
+    margin-bottom: 38px;
+  }
+
+  .download-app__addition {
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 119px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .download-app {
+    background-image: url("../../img/back-desktop.png");
+  }
+
+  .download-app__wrapper {
+    width: 940px;
+  }
+
+  .download-app__slogan {
+    font-size: 50px;
+    line-height: normal;
+    width: 300px;
+    margin-top: 224px;
+    margin-bottom: 51px;
+  }
+
+  .download-app__link {
+    font-size: 21px;
+    margin-bottom: 67px;
+  }
+
+  .download-app__platforms {
+    margin-bottom: 58px;
+  }
+
+  .download-app__addition {
+    margin-bottom: 130px;
+  }
 }

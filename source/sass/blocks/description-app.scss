@@ -1,14 +1,39 @@
+.description-app {
+  text-align: center;
+}
+
+.description-app__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .description-app__slogan {
   margin: 0;
   font-weight: 300;
   font-size: 24px;
   line-height: 1.2;
+  margin-top: 46px;
+  text-align: center;
+}
+
+.description-app__slogan + .description-app__slogan {
+  margin-top: 41px;
+  margin-bottom: 123px;
 }
 
 .description-app__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-bottom: 48px;
+}
+
+.description-app__item {
+  text-align: center;
+}
+
+.description-app__item:not(:last-child) {
+  margin-bottom: 43px;
 }
 
 .description-app__benefit {
@@ -17,8 +42,101 @@
   color: $textColorThree;
   font-size: 18px;
   line-height: 24px;
+  margin-bottom: 24px;
 }
 
 .description-app__description {
   margin: 0;
+}
+
+.description-app__image-tablet,
+.description-app__image {
+  display: none;
+}
+
+
+@media (min-width: $tablet-width) {
+  .description-app__wrapper {
+    width: 620px;
+  }
+
+  .description-app__slogan {
+    width: 588px;
+    margin: 0 auto;
+    margin-top: 58px;
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .description-app__slogan + .description-app__slogan {
+    margin-top: 0;
+    width: 580px;
+    margin-bottom: 47px;
+  }
+
+  .description-app__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description-app__item {
+    width: 310px;
+    text-align: left;
+  }
+
+  .description-app__item:first-child {
+    margin-top: 75px;
+  }
+
+  .description-app__item:not(:last-child) {
+    margin-bottom: 46px;
+  }
+
+  .description-app__image-tablet {
+    display: block;
+  }
+
+  .description-app__phone-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .description-app__wrapper {
+    width: 940px;
+  }
+
+  .description-app__slogan {
+    font-size: 50px;
+    width: 780px;
+    margin-top: 78px;
+  }
+
+  .description-app__slogan + .description-app__slogan {
+    width: 600px;
+    margin-bottom: 72px;
+  }
+
+  .description-app__image-tablet {
+    display: none;
+  }
+
+  .description-app__list-wrapper {
+    display: flex;
+    width: 940px;
+    justify-content: space-around;
+  }
+
+  .description-app__image {
+    display: inline;
+  }
+
+  .description-app__item {
+    width: 255px;
+    text-align: center;
+  }
+
+  .description-app__item:first-child {
+    margin-top: 0;
+  }
 }

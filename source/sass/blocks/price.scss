@@ -1,7 +1,16 @@
+.price_wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .price-for-mobile__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.price-for-mobile__item {
+  text-align: center;
 }
 
 .price-for-mobile__title {
@@ -29,6 +38,7 @@
   margin: 0;
   line-height: 30px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .price__table-header {
@@ -56,4 +66,45 @@
   margin: 0;
   padding: 0;
   line-height: 30px;
+}
+
+.price__table {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .price_wrapper {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .price-for-mobile {
+    display: none;
+  }
+
+  .price__table {
+    display: table;
+    width: 620px;
+    margin-top: 117px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .price_wrapper {
+    width: 940px;
+  }
+
+  .price__table {
+    width: 940px;
+    margin-bottom: 98px;
+  }
+
+  .price__name {
+    font-size: 18px;
+  }
+
+  .price__price {
+    font-size: 24px;
+  }
 }
