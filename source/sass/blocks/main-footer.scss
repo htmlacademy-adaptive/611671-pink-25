@@ -1,10 +1,36 @@
+.main-footer__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-footer__link-logo {
+  margin-bottom: 38px;
+}
+
 .main-footer__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 .main-footer__madein {
   margin: 0;
   line-height: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-footer__wrapper {
+    width: 620px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-footer__wrapper {
+    width: 940px;
+  }
 }

@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>HTML Academy: Пинк</title>
   </head>
@@ -75,32 +76,37 @@
           <p class="description-app__slogan">Устали от серости мегаполиса?</p>
           <p class="description-app__slogan">Нам есть, что вам предложить!</p>
           <ul class="description-app__list">
-            <li class="description-app__item">
-              <img class="description-app__image" src="img/iphone-content-desktop1.png" width="186" height="382" alt="Изображение показывает возможности приложения">
-              <p class="description-app__benefit">Поднимает настроение</p>
-              <p class="description-app__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-            </li>
-            <li class="description-app__item">
-              <img class="description-app__image" src="img/iphone-content-desktop2.png" width="186" height="382" alt="Изображение показывает возможности приложения">
-              <p class="description-app__benefit">Меняет мир вокруг</p>
-              <p class="description-app__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-            </li>
-            <li class="description-app__item">
-              <img class="description-app__image" src="img/iphone-content-desktop3.png" width="186" height="382" alt="Изображение показывает возможности приложения">
-              <p class="description-app__benefit">Заводит новых друзей</p>
-              <p class="description-app__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-            </li>
+            <img class="description-app__image-tablet" src="img/iphone-content-tablet.png" width="268" height="547" alt="Изображение показывает возможности приложения">
+            <div class="description-app__list-wrapper">
+              <li class="description-app__item">
+                <img class="description-app__image" src="img/iphone-content-desktop1.png" width="186" height="382" alt="Изображение показывает возможности приложения">
+                <p class="description-app__benefit">Поднимает настроение</p>
+                <p class="description-app__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              </li>
+              <li class="description-app__item">
+                <img class="description-app__image" src="img/iphone-content-desktop2.png" width="186" height="382" alt="Изображение показывает возможности приложения">
+                <p class="description-app__benefit">Меняет мир вокруг</p>
+                <p class="description-app__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+              </li>
+              <li class="description-app__item">
+                <img class="description-app__image" src="img/iphone-content-desktop3.png" width="186" height="382" alt="Изображение показывает возможности приложения">
+                <p class="description-app__benefit">Заводит новых друзей</p>
+                <p class="description-app__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              </li>
+            </div>
           </ul><!-- description-app__list -->
           <img class="description-app__phone-mobile" src="img/iphone-content-mobile.png" width="157" height="320" alt="Изображение показывает возможности приложения">
         </div><!-- description-app__wrapper -->
       </section><!-- description-app -->
       <section class="effect">
         <div class="effect__wrapper">
-          <h3 class="effect__title">Эффект на 24 часа!</h3>
-          <p class="effect__description">
-            Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!
-          </p>
-          <a class="effect__link" href="#">Узнать больше об исследовании</a>
+          <div class="effect__wrapper-content">
+            <h3 class="effect__title">Эффект на 24 часа!</h3>
+            <p class="effect__description">
+              Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!
+            </p>
+            <a class="effect__link" href="#">Узнать больше об исследовании</a>
+          </div>
         </div><!-- effect__wrapper -->
       </section><!-- effect -->
       <section class="reviews">
@@ -134,6 +140,14 @@
               </p>
             </li>
           </ul><!-- reviews__list -->
+          <div class="reviws__slider-buttons">
+            <button class="reviws__slider-button reviws__slider-button--prev">
+              <span class="visually-hidden">Предыдущий отзыв</span>
+            </button>
+            <button class="reviws__slider-button reviws__slider-button--next">
+              <span class="visually-hidden">Следующий отзыв</span>
+            </button>
+          </div>
           <div class="reviews__toggles slider__toggles">
             <button class="slider__toggle slider__toggle--current" type="button">1</button>
             <button class="slider__toggle" type="button">2</button>
@@ -221,20 +235,26 @@
           <p class="contacts__questions">
             Остались вопросы? Свяжитесь с нами!
           </p>
-          <dl class="contacts__list">
-            <dt class="contacts__title">Звоните:</dt>
-            <dd><a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a></dd>
-            <dt class="contacts__title">Пишите:</dt>
-            <dd><a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></dd>
-            <dt class="contacts__title">Приезжайте в гости:</dt>
-            <dd class="contacts__contact">ул. Большая Конюшенная, 19/8</dd>
-          </dl>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__title">Звоните:</p>
+              <p><a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a></p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__title">Пишите:</p>
+              <p><a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__title">Приезжайте в гости:</p>
+              <p class="contacts__contact">ул. Большая Конюшенная, 19/8</p>
+            </li>
+          </ul>
           <img class="contacts__map" src="img/map-mobile.png" width="320" height="200" alt="Мы на карте">
         </div><!-- contacts_wrapper -->
       </section><!-- contacts -->
       <footer class="main-footer">
         <div class="main-footer__wrapper">
-          <a class="main-footer__link-logo">
+          <a class="main-footer__link-logo" href="#">
             <img class="page-footer__logo" src="img/logotype-footer-mobile.svg" width="145" height="40" alt="Ссылка на главную страницу">
           </a>
           <ul class="main-footer__list">

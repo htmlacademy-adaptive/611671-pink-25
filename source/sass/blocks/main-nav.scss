@@ -1,0 +1,15 @@
+.main-nav__toggle {
+  margin-top: 21px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    margin-top: 43px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}

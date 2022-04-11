@@ -16,5 +16,49 @@
 
 .effect__link {
   color: $textColorFour;
-  text-decoration: none;
+}
+
+@media (min-width: $tablet-width) {
+  .effect {
+    display: block;
+  }
+
+  .effect__wrapper {
+    width: 620px;
+    margin: 0 auto;
+  }
+
+  .effect__wrapper-content {
+    width: 310px;
+    margin-left: auto;
+  }
+
+  .effect__title {
+    width: 168px;
+    margin-bottom: 24px;
+  }
+
+  .effect__description {
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .effect__wrapper {
+    width: 980px;
+  }
+
+  .effect__wrapper-content {
+    width: 534px;
+    margin-right: 36px;
+  }
+
+  .effect__title {
+    width: 300px;
+    margin-bottom: 37px;
+  }
+
+  .effect__description {
+    margin-bottom: 47px;
+  }
 }
