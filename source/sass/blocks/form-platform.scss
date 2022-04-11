@@ -5,18 +5,44 @@
   background-color: $backgroundColorFive;
 }
 
+.form-platform_wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .form-platform__legend {
   color: $textColorFour;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 40px;
 }
 
 .form-platform__list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  margin-bottom: 42px;
 }
 
 .form-platform__label {
   line-height: 30px;
   font-size: 18px;
+}
+
+@media (min-width: $tablet-width) {
+  .form-platform {
+    background-color: $backgroundColorThree;
+  }
+
+  .form-platform_wrapper {
+    width: 620px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-platform_wrapper {
+    width: 435px;
+  }
 }

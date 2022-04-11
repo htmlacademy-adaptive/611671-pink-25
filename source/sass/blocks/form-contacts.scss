@@ -4,6 +4,11 @@
   border: none;
 }
 
+.form-contacts__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .form-contacts__legend {
   display: none;
   color: $textColorFour;
@@ -14,6 +19,8 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-top: 42px;
+  margin-bottom: 44px;
 }
 
 .form-contacts__lable {
@@ -28,4 +35,49 @@
   font-size: 18px;
   line-height: 30px;
   padding: 0;
+  width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+  .form-contacts__wrapper {
+    width: 620px;
+  }
+
+  .form-contacts__legend {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .form-contacts__list {
+    width: 496px;
+    margin: 0 auto;
+  }
+
+  .form-contacts__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-contacts__lable {
+    order: 1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-contacts__wrapper {
+    width: 940px;
+  }
+
+  .form-contacts__list {
+    width: 940px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .form-contacts__item {
+    width: 371px;
+  }
 }
