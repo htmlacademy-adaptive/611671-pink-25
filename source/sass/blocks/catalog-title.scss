@@ -1,16 +1,64 @@
 .catalog-title__foto-user-wrapper {
   background-color: $backgroundColorTwo;
+  background-image: url("../../img/back-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center  top;
 }
 
 .catalog-title__foto-user-title {
-  margin: 0;
+  margin: 0 auto;
   color: $textColorTwo;
   font-weight: 300;
   font-size: 24px;
   line-height: normal;
+  width: 200px;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 84px;
 }
 
 .catalog-title__description-catalog {
-  margin: 0;
+  margin: 0 auto;
+  width: 250px;
   line-height: 30px;
+  text-align: center;
+  margin-top: 54px;
+  margin-bottom: 60px;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-title__foto-user-wrapper {
+    background-image: url("../../img/back-tablet-clean.png");
+  }
+
+  .catalog-title__foto-user-title {
+    font-size: 50px;
+    width: 370px;
+    padding-top: 191px;
+    padding-bottom: 143px;
+  }
+
+  .catalog-title__description-catalog {
+    width: 500px;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 85px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-title__foto-user-wrapper {
+    background-image: url("../../img/back-desktop-clean.png");
+  }
+
+  .catalog-title__foto-user-title {
+    padding-top: 184px;
+    padding-bottom: 104px;
+  }
+
+  .catalog-title__description-catalog {
+    width: 572px;
+    margin-top: 100px;
+    margin-bottom: 97px;
+  }
 }

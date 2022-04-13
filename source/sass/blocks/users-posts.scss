@@ -2,4 +2,22 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .users-posts__list {
+    grid-template-columns: 1fr 1fr;
+    width: 620px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .users-posts__list {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 940px;
+    row-gap: 54px;
+  }
 }
