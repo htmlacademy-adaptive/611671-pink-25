@@ -4,10 +4,18 @@
   border: none;
 }
 
+.form-emotions__wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .form-emotions__legend {
   color: $textColorFour;
   line-height: 18px;
   text-transform: uppercase;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 22px;
 }
 
 .form-emotions__text-field {
@@ -16,4 +24,29 @@
   font: inherit;
   font-size: 18px;
   line-height: 30px;
+  width: 100%;
+  min-height: 197px;
+}
+
+@media (min-width: $tablet-width) {
+  .form-emotions__wrapper {
+    width: 620px;
+  }
+
+  .form-emotions__text-field {
+    width: 496px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form-emotions__wrapper {
+    width: 940px;
+  }
+
+  .form-emotions__text-field {
+    width: 816px;
+    min-height: 124px;
+  }
 }
