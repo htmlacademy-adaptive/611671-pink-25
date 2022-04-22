@@ -1,6 +1,14 @@
+.price {
+  background-color: $backgroundColorFive;
+}
+
 .price_wrapper {
   width: 280px;
   margin: 0 auto;
+}
+
+.price-for-mobile {
+  padding-top: 129px;
 }
 
 .price-for-mobile__list {
@@ -15,6 +23,12 @@
 
 .price-for-mobile__title {
   background-color: $backgroundColorOne;
+
+  &--hit {
+    background-image: url("../../img/hit.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
 }
 
 .price-for-mobile__name {
@@ -24,6 +38,8 @@
   font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
+  padding-top: 19px;
+  margin-bottom: 15px;
 }
 
 .price-for-mobile__price {
@@ -32,6 +48,7 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
+  padding-bottom: 35px;
 }
 
 .price-for-mobile__option {
@@ -39,10 +56,41 @@
   line-height: 30px;
   text-transform: uppercase;
   text-align: left;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid $ColorOne;
+}
+
+.price-for-mobile__option-check {
+  background-image: url("../../img/yes.svg");
+  background-repeat: no-repeat;
+  background-position: top 19px right 19px;
+}
+
+.price-for-mobile__option-no {
+  background-image: url("../../img/no.svg");
+  background-repeat: no-repeat;
+  background-position: top 16px right 21px;
+}
+
+.price-for-mobile__toggles {
+  width: min-content;
+  margin: 0 auto;
+  margin-top: 45px;
+  padding-bottom: 49px;
 }
 
 .price__table-header {
   background-color: $textColorOne;
+  padding-top: 19px;
+  padding-bottom: 16px;
+}
+
+.price__hit {
+  background-image: url("../../img/hit.png");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .price__name {
@@ -65,11 +113,45 @@
 .price__option {
   margin: 0;
   padding: 0;
+  width: 152px;
+  box-sizing: border-box;
   line-height: 30px;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 17px;
+}
+
+.price__option-check {
+  background-image: url("../../img/yes.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.price__option-no {
+  background-image: url("../../img/no.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .price__table {
   display: none;
+  border-collapse: collapse;
+
+  td {
+    border: 2px solid $ColorOne;
+  }
+
+  th:not(:last-child) {
+    border-right: 2px solid $backgroundColorThree;
+  }
+
+  th:nth-child(2) {
+    border-radius: 1px 0 0 0;
+  }
+
+  th:last-child {
+    border-radius: 0 1px 0 0;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -98,6 +180,10 @@
   .price__table {
     width: 940px;
     margin-bottom: 98px;
+  }
+
+  .price__option {
+    width: 234px;
   }
 
   .price__name {
