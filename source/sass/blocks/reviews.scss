@@ -38,6 +38,12 @@
   display: none;
 }
 
+.reviews__toggles {
+  width: min-content;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
 @media (min-width: $tablet-width) {
   .reviews__wrapper {
     width: 620px;
@@ -69,6 +75,10 @@
 @media (min-width: $desktop-width) {
   .reviews__wrapper {
     width: 940px;
+    position: relative;
+    background-image: url("../../img/quotes.svg");
+    background-repeat: no-repeat;
+    background-position: top 72px center;
   }
 
   .reviews__autor {
@@ -85,11 +95,29 @@
     margin-top: 193px;
   }
 
-  .reviews__toggles {
-    display: none;
+  .reviws__slider-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 213px;
   }
 
-  .reviws__slider-buttons {
-    display: block;
+  .reviws__slider-button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 41px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .reviws__slider-svg path:hover {
+    opacity: 0.6;
+  }
+
+  .reviws__slider-svg path:active {
+    opacity: 0.1;
   }
 }

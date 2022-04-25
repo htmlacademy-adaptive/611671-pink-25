@@ -26,6 +26,10 @@
   .effect__wrapper {
     width: 620px;
     margin: 0 auto;
+    background-image: url("../../img/timer.png");
+    min-height: 276px;
+    background-repeat: no-repeat;
+    background-position: top left;
   }
 
   .effect__wrapper-content {
@@ -34,6 +38,7 @@
   }
 
   .effect__title {
+    margin-top: 102px;
     width: 168px;
     margin-bottom: 24px;
   }
@@ -46,6 +51,8 @@
 @media (min-width: $desktop-width) {
   .effect__wrapper {
     width: 980px;
+    background-image: url("../../img/timer-desktop.png");
+    min-height: 345px;
   }
 
   .effect__wrapper-content {
@@ -55,6 +62,7 @@
 
   .effect__title {
     width: 300px;
+    padding-top: 115px;
     margin-bottom: 37px;
   }
 

@@ -40,6 +40,15 @@
   padding: 21px 0;
   text-align: center;
   margin-bottom: 32px;
+
+  &:hover {
+    color: $textColorFour;
+    background-color: $backgroundColorThree;
+  }
+
+  &:active {
+    color: rgba($textColorFour, 0.3);
+  }
 }
 
 .download-app__platforms {
@@ -89,7 +98,7 @@
   .download-app__addition {
     font-size: 18px;
     width: 300px;
-    margin-bottom: 119px;
+    margin-bottom: 70px;
   }
 }
 
@@ -120,6 +129,6 @@
   }
 
   .download-app__addition {
-    margin-bottom: 130px;
+    margin-bottom: 70px;
   }
 }
