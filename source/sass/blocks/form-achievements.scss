@@ -31,6 +31,80 @@
 .form-achievements__lable {
   font-size: 18px;
   line-height: 30px;
+  position: relative;
+  display: block;
+  padding-left: 57px;
+}
+
+.form-achievements__input-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid $ColorOne;
+  background-color: $backgroundColorThree;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $backgroundColorOne;
+  }
+
+  &:active {
+    border-color: $textColorFour;
+  }
+}
+
+.form-achievements__input[type="checkbox"]:checked + .form-achievements__input-mark::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 7px;
+  width: 22px;
+  height: 16px;
+  background-image: url("../../img/tick.svg");
+}
+
+.form-platform__label {
+  position: relative;
+}
+
+.form-platform__input-description {
+  padding-left: 70px;
+}
+
+.form-platform__input-mark {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border: 2px solid $ColorOne;
+  background-color: $backgroundColorThree;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $backgroundColorOne;
+  }
+
+  &:active {
+    border-color: $textColorFour;
+  }
+}
+
+.form-platform__input[type="radio"]:checked + .form-platform__input-mark::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $textColorFour;
+}
+
+.form-platform__item {
+  margin-bottom: 36px;
 }
 
 .content-form__submit {

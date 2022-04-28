@@ -5,6 +5,23 @@
 .description-app__wrapper {
   width: 280px;
   margin: 0 auto;
+
+  &--background {
+    background-color: $backgroundColorFive;
+    padding-top: 87px;
+    position: relative;
+  }
+
+  &--background::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 32px;
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+    background-color: $backgroundColorThree;
+  }
 }
 
 .description-app__slogan {
