@@ -1,5 +1,17 @@
 .price {
   background-color: $backgroundColorFive;
+  position: relative;
+}
+
+.price::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  clip-path: polygon(0 100%, 0 0, 100% 0);
+  background-color: $backgroundColorThree;
 }
 
 .price_wrapper {
@@ -155,6 +167,15 @@
 }
 
 @media (min-width: $tablet-width) {
+  .price {
+    padding-bottom: 70px;
+    padding-top: 100px;
+  }
+
+  .price::before {
+    height: 41px;
+  }
+
   .price_wrapper {
     width: 620px;
     margin: 0 auto;
@@ -167,19 +188,25 @@
   .price__table {
     display: table;
     width: 620px;
-    margin-top: 117px;
-    margin-bottom: 70px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .price {
+    padding-top: 159px;
+    padding-bottom: 98px;
+  }
+
+  .price::before {
+    height: 100px;
+  }
+
   .price_wrapper {
     width: 940px;
   }
 
   .price__table {
     width: 940px;
-    margin-bottom: 98px;
   }
 
   .price__option {
