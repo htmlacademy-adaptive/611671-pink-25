@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicons/icon.svg" type="image+xml">
+    <link rel="apple-touch-icon" href="img/favicons/apple.png">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>PINK:Конкурс</title>
   </head>
@@ -10,7 +14,11 @@
     <header class="main-header main-header--closed">
       <div class="main-header__wrapper">
         <a class="main-header__logo">
-          <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/pink-logo-desktop.svg">
+            <source media="(min-width: 660px)" srcset="img/pink-logo-tablet.svg">
+            <img class="main-header__logo-image" src="img/pink-logo-mobile.svg" width="74" height="23" alt="Приложение PINK">
+          </picture>
         </a>
         <nav class="main-nav main-nav--opened main-nav--nojs">
           <button class="main-nav__toggle" type="button">
@@ -56,7 +64,11 @@
       <section class="users-posts">
         <ul class="users-posts__list">
           <li class="users-posts__item user-post user-post--post-of-day">
-            <img class="user-post__image" src="img/photo-bridge-mobile.jpg" width="280" height="180" alt="Вид с моста">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-bridge-desktop.jpg 1x, img/photo-bridge-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-bridge-tablet.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-bridge-mobile.jpg" srcset="img/photo-bridge-mobile@2x.jpg 2x" width="280" height="180" alt="Вид с моста">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Анна <span class="user-post__autor-time">(5 минут назад)</span>
@@ -73,7 +85,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-car-mobile.jpg" width="280" height="180" alt="Фото машины">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-car-desktop.jpg 1x, img/photo-car-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-car-tablet.jpg 1x, img/photo-car-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-car-mobile.jpg" srcset="img/photo-car-mobile@2x.jpg 2x" width="280" height="180" alt="Фото машины">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Левон <span class="user-post__autor-time">(5 часов назад)</span>
@@ -90,7 +106,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-drums-mobile.jpg" width="280" height="180" alt="Фото барабанной установки">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-drums-desktop.jpg 1x, img/photo-drums-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-drums-tablet.jpg 1x, img/photo-drums-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-drums-mobile.jpg" srcset="img/photo-drums-mobile@2x.jpg 2x" width="280" height="180" alt="Фото барабанной установки">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Антон <span class="user-post__autor-time">(12 часов назад)</span>
@@ -107,7 +127,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-windows-mobile.jpg" width="280" height="180" alt="Фото витражные окна">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-windows-desktop.jpg 1x, img/photo-windows-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-windows-tablet.jpg 1x, img/photo-windows-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-windows-mobile.jpg" srcset="img/photo-windows-mobile@2x.jpg 2x" width="280" height="180" alt="Фото витражные окна">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Борис <span class="user-post__autor-time">(20 часов назад)</span>
@@ -124,7 +148,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-market-mobile.jpg" width="280" height="180" alt="Фото базара">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-market-desktop.jpg 1x, img/photo-market-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-market-tablet.jpg 1x, img/photo-market-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-market-mobile.jpg" srcset="img/photo-market-mobile@2x.jpg 2x" width="280" height="180" alt="Фото базара">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Сергей <span class="user-post__autor-time">(25 часов назад)</span>
@@ -141,7 +169,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-mountain-mobile.jpg" width="280" height="180" alt="Вид с горы">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-mountain-desktop.jpg 1x, img/photo-mountain-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-mountain-tablet.jpg 1x, img/photo-mountain-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-mountain-mobile.jpg" srcset="img/photo-mountain-mobile@2x.jpg 2x" width="280" height="180" alt="Вид с горы">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Максим <span class="user-post__autor-time">(40 часов назад)</span>
@@ -158,7 +190,11 @@
             </div>
           </li>
           <li class="users-posts__item user-post">
-            <img class="user-post__image" src="img/photo-wing-mobile.jpg" width="280" height="180" alt="Крыло самолета">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-wing-desktop.jpg 1x, img/photo-wing-desktop@2x.jpg 2x">
+              <source media="(min-width: 660px)" srcset="img/photo-wing-tablet.jpg 1x, img/photo-wing-tablet@2x.jpg 2x">
+              <img class="user-post__image" src="img/photo-wing-mobile.jpg" srcset="img/photo-wing-mobile@2x.jpg 2x" width="280" height="180" alt="Крыло самолета">
+            </picture>
             <div class="user-post__wrapper">
               <p class="user-post__autor">
                 Надежда <span class="user-post__autor-time">(45 часов назад)</span>
@@ -182,7 +218,10 @@
         </p>
         <div class="edit-post__wrapper">
           <div class="edit-post__editor">
-            <img class="edit-post__image" src="img/photo-editor-mobile.jpg" width="280" height="374" alt="Ваше фото для редактиолвания">
+            <picture>
+              <source media="(min-width: 660px)" srcset="img/photo-editor-tablet.jpg 1x, img/photo-editor-tablet@2x.jpg 2x">
+              <img class="edit-post__image" src="img/photo-editor-mobile.jpg" srcset="img/photo-editor-mobile@2x.jpg 2x" width="280" height="374" alt="Ваше фото для редактиолвания">
+            </picture>
             <div class="edit-post__edit-wrapper">
               <ul class="edit-post__img-list">
                 <li class="edit-post__img-item">
