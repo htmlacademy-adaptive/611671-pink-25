@@ -9,13 +9,13 @@ mainNav.classList.add("main-nav--closed");
 mainHeader.classList.remove("main-header--closed");
 
 navBtnToggle.addEventListener('click', function () {
- if (mainNav.classList.contains("main-nav--opened")) {
-   mainNav.classList.remove("main-nav--opened");
-   mainNav.classList.add("main-nav--closed");
-   mainHeader.classList.remove("main-header--closed");
- } else {
-   mainNav.classList.add("main-nav--opened");
-   mainNav.classList.remove("main-nav--closed");
-   mainHeader.classList.add("main-header--closed");
- }
+  if (mainNav.classList.contains("main-nav--opened")) {
+    mainNav.classList.remove("main-nav--opened");
+    mainNav.classList.add("main-nav--closed");
+    mainHeader.classList.remove("main-header--closed");
+  } else {
+    mainNav.classList.add("main-nav--opened");
+    mainNav.classList.remove("main-nav--closed");
+    mainHeader.classList.add("main-header--closed");
+  }
 })
