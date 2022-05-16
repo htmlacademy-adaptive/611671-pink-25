@@ -3,6 +3,11 @@
   background-image: url("../../img/back-mobile.png");
   background-repeat: no-repeat;
   background-position: center  top;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/back-mobile@2x.png");
+    background-size: 320px auto;
+  }
 }
 
 .catalog-title__foto-user-title {
@@ -29,6 +34,11 @@
 @media (min-width: $tablet-width) {
   .catalog-title__foto-user-wrapper {
     background-image: url("../../img/back-tablet-clean.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/back-tablet-clean@2x.png");
+      background-size: 660px auto;
+    }
   }
 
   .catalog-title__foto-user-title {
@@ -49,6 +59,11 @@
 @media (min-width: $desktop-width) {
   .catalog-title__foto-user-wrapper {
     background-image: url("../../img/back-desktop-clean.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/back-desktop-clean@2x.png");
+      background-size: 1200px auto;
+    }
   }
 
   .catalog-title__foto-user-title {

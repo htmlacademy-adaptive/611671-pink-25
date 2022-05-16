@@ -30,6 +30,11 @@
     min-height: 276px;
     background-repeat: no-repeat;
     background-position: top left;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/timer-desktop@2x.png");
+      background-size: 238px auto;
+    }
   }
 
   .effect__wrapper-content {
@@ -56,6 +61,11 @@
     width: 980px;
     background-image: url("../../img/timer-desktop.png");
     min-height: 345px;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/timer-desktop@2x.png");
+      background-size: 298px auto;
+    }
   }
 
   .effect__wrapper-content {

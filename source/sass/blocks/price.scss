@@ -103,6 +103,11 @@
   background-image: url("../../img/hit.png");
   background-repeat: no-repeat;
   background-position: top left;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/hit@2x.png");
+    background-size: 74px auto;
+  }
 }
 
 .price__name {
