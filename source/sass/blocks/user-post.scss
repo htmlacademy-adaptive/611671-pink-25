@@ -1,6 +1,7 @@
 .user-post {
   &--post-of-day .user-post__image {
     width: 320px;
+    height: 137px;
   }
 }
 
@@ -16,7 +17,8 @@
   margin: 0 auto;
   padding-left: 17px;
   padding-right: 10px;
-  padding-top: 25px;
+  padding-top: 18px;
+  padding-bottom: 19px;
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +26,6 @@
 .user-post__autor {
   margin: 0;
   font-weight: 700;
-  margin-bottom: 14px;
 }
 
 .user-post__autor-time {
@@ -34,7 +35,7 @@
 
 .user-post__post-description {
   margin: 0;
-  margin-bottom: auto;
+  margin-bottom: 10px;
 }
 
 .user-post__post-likes {
@@ -77,22 +78,24 @@
 
     .user-post__wrapper {
       width: 620px;
+      min-height: 121px;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content min-content;
       grid-auto-flow: dense;
       margin-left: 0;
+      padding-top: 23px;
+      margin-bottom: 30px;
     }
 
     .user-post__autor {
       margin: 0;
       padding: 0;
-      height: fit-content;
     }
 
     .user-post__post-likes {
       justify-content: end;
       height: fit-content;
-      margin-right: 30px;
     }
 
     .user-post__like {
@@ -101,6 +104,7 @@
 
     .user-post__post-description {
       grid-column: 1 / -1;
+      margin: 0;
     }
 
     .user-post__image {
@@ -113,6 +117,9 @@
   .user-post__wrapper {
     width: 300px;
     min-height: 155px;
+    padding-left: 30px;
+    padding-top: 23px;
+    padding-bottom: 24px;
   }
 
   .user-post__image {
@@ -122,10 +129,12 @@
 
   .user-post__post-likes {
     justify-content: space-between;
+    margin-top: auto;
   }
 
   .user-post__like-img {
     margin: 0;
+    margin-right: 20px;
     order: 1;
   }
 }
@@ -134,6 +143,9 @@
   .user-post--post-of-day {
     .user-post__wrapper {
       width: 940px;
+      margin-left: -2px;
+      min-height: 96px;
+      margin-bottom: -4px;
     }
 
     .user-post__image {
@@ -145,5 +157,9 @@
 
   .user-post__image {
     height: 400px;
+  }
+
+  .user-post__wrapper {
+    padding-left: 28px;
   }
 }
