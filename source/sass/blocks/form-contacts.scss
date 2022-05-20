@@ -19,50 +19,103 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-top: 42px;
-  margin-bottom: 44px;
+  margin-top: 31px;
+  margin-bottom: 26px;
 }
 
 .form-contacts__lable {
   color: $textColorFour;
   line-height: 30px;
   text-transform: uppercase;
+  margin-left: 24px;
 }
 
 .form-contacts__input {
+  margin-top: 6px;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 17px;
   font: inherit;
   color: inherit;
   font-size: 18px;
   line-height: 30px;
-  padding: 0;
-  width: 100%;
+  width: 254px;
 }
 
 @media (min-width: $tablet-width) {
   .form-contacts__wrapper {
     width: 620px;
+    border: 2px solid $ColorOne;
   }
 
   .form-contacts__legend {
     display: block;
-    width: 200px;
+    width: fit-content;
     margin: 0 auto;
     font-size: 14px;
     text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $backgroundColorThree;
+    margin-top: -14px;
   }
 
   .form-contacts__list {
     width: 496px;
     margin: 0 auto;
+    margin-top: 27px;
   }
 
   .form-contacts__item {
     display: flex;
     flex-direction: column;
+    margin-bottom: 29px;
+  }
+
+  .form-contacts__item-wrapper {
+    display: flex;
+    margin-bottom: 11px;
+  }
+
+  .form-contacts__item-img {
+    width: 60px;
+    height: 63px;
+    background-color: $ColorOne;
+    position: relative;
+  }
+
+  .form-contacts__item-svg-phone::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 21px;
+    width: 20px;
+    height: 19px;
+    background-image: url("../../img/phone_icon.svg");
+  }
+
+  .form-contacts__item-svg-email::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 21px;
+    width: 18px;
+    height: 13px;
+    background-image: url("../../img/mail_icon.svg");
   }
 
   .form-contacts__lable {
     order: 1;
+    margin-left: 17px;
+  }
+
+  .form-contacts__input {
+    padding-top: 12px;
+    width: 411px;
+    margin: 0;
+    padding-bottom: 12px;
+    border: 2px solid $ColorOne;
   }
 }
 
@@ -71,13 +124,18 @@
     width: 940px;
   }
 
+  .form-contacts__input {
+    width: 312px;
+  }
+
   .form-contacts__list {
-    width: 940px;
+    width: 850px;
     display: flex;
     justify-content: space-around;
   }
 
   .form-contacts__item {
-    width: 371px;
+    width: fit-content;
+    margin-bottom: 12px;
   }
 }

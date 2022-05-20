@@ -3,9 +3,21 @@
   margin: 0 auto;
 }
 
+.content-form__button {
+  margin-bottom: 33px;
+}
+
 .content-form__footnote {
   line-height: 30px;
-  margin: 0;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.content-form__submit {
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 56px;
 }
 
 .content-form__star {
@@ -15,5 +27,49 @@
 @media (min-width: $tablet-width) {
   .content-form__wrapper {
     width: 620px;
+  }
+
+  .content-form__contacts {
+    margin-bottom: 64px;
+  }
+
+  .content-form__achievements {
+    margin-bottom: 66px;
+  }
+
+  .content-form__submit {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 68px;
+    margin-bottom: 14px;
+  }
+
+  .content-form__footnote {
+    margin: 0;
+    margin-top: 17px;
+  }
+
+  .content-form__button {
+    width: 296px;
+    height: 59px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .content-form__platform {
+    margin-top: 27px;
+  }
+
+  .content-form__submit {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 58px;
+    margin-bottom: 0;
+  }
+
+  .content-form__button {
+    margin-bottom: 0;
   }
 }

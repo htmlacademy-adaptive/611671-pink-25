@@ -29,20 +29,20 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 1.2;
-  margin-top: 46px;
+  margin-top: 42px;
   text-align: center;
 }
 
 .description-app__slogan + .description-app__slogan {
-  margin-top: 41px;
-  margin-bottom: 123px;
+  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .description-app__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .description-app__item {
@@ -50,7 +50,7 @@
 }
 
 .description-app__item:not(:last-child) {
-  margin-bottom: 43px;
+  margin-bottom: 31px;
 }
 
 .description-app__benefit {
@@ -59,7 +59,7 @@
   color: $textColorThree;
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .description-app__description {
@@ -83,10 +83,14 @@
     width: 620px;
   }
 
+  .description-app__wrapper--background {
+    padding: 0;
+  }
+
   .description-app__slogan {
     width: 588px;
     margin: 0 auto;
-    margin-top: 58px;
+    margin-top: 46px;
     font-size: 40px;
     line-height: normal;
   }
@@ -94,12 +98,13 @@
   .description-app__slogan + .description-app__slogan {
     margin-top: 0;
     width: 580px;
-    margin-bottom: 47px;
+    margin-bottom: 28px;
   }
 
   .description-app__list {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 55px;
   }
 
   .description-app__item {
@@ -112,17 +117,18 @@
   }
 
   .description-app__item:not(:last-child) {
-    margin-bottom: 46px;
+    margin-bottom: 34px;
   }
 
   .description-app__image-tablet-wrapper {
     width: 268px;
-    height: 481px;
+    height: 485px;
     overflow: hidden;
   }
 
   .description-app__image-tablet {
     display: block;
+    margin-top: 5px;
   }
 
   .description-app__phone-mobile-wrapper {
@@ -138,12 +144,12 @@
   .description-app__slogan {
     font-size: 50px;
     width: 780px;
-    margin-top: 78px;
+    margin-top: 63px;
   }
 
   .description-app__slogan + .description-app__slogan {
     width: 600px;
-    margin-bottom: 72px;
+    margin-bottom: 56px;
   }
 
   .description-app__image-tablet-wrapper {
@@ -183,6 +189,11 @@
     display: inline;
   }
 
+  .description-app__list {
+    margin-bottom: 0;
+    padding-bottom: 34px;
+  }
+
   .description-app__item {
     width: 240px;
     text-align: center;
@@ -190,13 +201,17 @@
 
   .description-app__benefit {
     font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 21px;
   }
 
   .description-app__description {
     font-size: 18px;
+    line-height: 30px;
   }
 
   .description-app__item:first-child {
     margin-top: 0;
+    margin-right: 5px;
   }
 }

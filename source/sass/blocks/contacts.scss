@@ -74,17 +74,41 @@
 
   .contacts__questions {
     font-size: 40px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 50px;
+    line-height: 51px;
+    margin-bottom: 36px;
   }
 
   .contacts__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
   }
 
-  .contacts__item:first-child {
-    margin-right: 97px;
-    margin-bottom: 55px;
+  .contacts__item p {
+    margin: 0;
+  }
+
+  .contacts__item {
+    margin-left: 5px;
+  }
+
+  .contacts__title {
+    padding-bottom: 2px;
+  }
+
+  .contacts__item:nth-child(2) {
+    margin-right: -15px;
+  }
+
+  .contacts__item:not(:last-child) {
+    margin-bottom: 46px;
+  }
+
+  .contacts__contact {
+    width: 211px;
   }
 
   .contacts iframe {
@@ -94,6 +118,7 @@
 
   .contacts__map {
     width: 660px;
+    margin-top: 20px;
   }
 
   .contacts__map::before {
@@ -104,11 +129,15 @@
 @media (min-width: $desktop-width) {
   .contacts_wrapper {
     width: 940px;
+    margin-bottom: -18px;
   }
 
   .contacts__questions {
     font-size: 50px;
-    margin-bottom: 61px;
+    margin-bottom: 41px;
+    width: 462px;
+    margin-top: 55px;
+    line-height: 68px;
   }
 
   .contacts__item:first-child {
@@ -129,10 +158,12 @@
 
   .contacts__list {
     justify-content: space-between;
+    width: 846px;
+    margin: 0 auto;
   }
 
   .contacts__title {
-    margin-bottom: 34px;
+    padding-bottom: 22px;
   }
 
   .contacts iframe {

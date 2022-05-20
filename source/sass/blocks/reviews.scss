@@ -19,8 +19,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-  margin-top: 50px;
-  margin-bottom: 31px;
+  margin-top: 42px;
+  margin-bottom: 13px;
 }
 
 .reviws__legend {
@@ -31,7 +31,7 @@
 .reviews__comment {
   margin: 0;
   line-height: 30px;
-  margin-bottom: 44px;
+  margin-bottom: 37px;
 }
 
 .reviws__slider-buttons {
@@ -56,19 +56,20 @@
 
   .reviews__autor {
     font-size: 20px;
-    margin-bottom: 17px;
+    margin-bottom: 0;
+    margin-top: 35px;
   }
 
   .reviws__legend {
     display: inline;
-    margin-bottom: 49px;
+    margin-bottom: 41px;
   }
 
   .reviews__comment {
     font-size: 18px;
     order: -1;
-    margin-top: 109px;
-    margin-bottom: 51px;
+    margin-top: 101px;
+    margin-bottom: 0;
   }
 }
 
@@ -92,7 +93,7 @@
   .reviews__comment {
     width: 688px;
     margin: 0 auto;
-    margin-top: 193px;
+    margin-top: 190px;
   }
 
   .reviws__slider-buttons {
@@ -113,11 +114,11 @@
     cursor: pointer;
   }
 
-  .reviws__slider-svg path:hover {
+  .reviws__slider-svg:hover {
     opacity: 0.6;
   }
 
-  .reviws__slider-svg path:active {
+  .reviws__slider-svg:active {
     opacity: 0.1;
   }
 }

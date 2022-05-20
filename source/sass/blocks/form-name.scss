@@ -13,10 +13,13 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-top: 55px;
+  margin-top: 35px;
+  margin-bottom: 26px;
 }
 
 .form-name__lable {
+  margin-left: 23px;
+  margin-bottom: 7px;
   color: $textColorFour;
   line-height: 30px;
   text-transform: uppercase;
@@ -28,7 +31,11 @@
   font-size: 18px;
   line-height: 30px;
   color: inherit;
-  width: 100%;
+  width: 254px;
+  padding-top: 13px;
+  padding-left: 20px;
+  padding-bottom: 13px;
+  margin-bottom: 18px;
 }
 
 @media (min-width: $tablet-width) {
@@ -39,14 +46,24 @@
   .form-name__lable {
     display: inline;
     margin-right: 20px;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .form-name__list {
+    margin-bottom: 49px;
   }
 
   .form-name__item {
     display: flex;
   }
 
+  .form-name__input {
+    width: 100%;
+  }
+
   .form-name__item:not(:last-child) {
-    margin-bottom: 56px;
+    margin-bottom: 37px;
   }
 }
 

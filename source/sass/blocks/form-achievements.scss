@@ -15,8 +15,8 @@
   line-height: 18px;
   text-transform: uppercase;
   margin: 0 auto;
-  margin-top: 42px;
-  margin-bottom: 44px;
+  margin-top: 38px;
+  margin-bottom: 45px;
   text-align: center;
   width: 218px;
 }
@@ -25,7 +25,11 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-bottom: 44px;
+  margin-bottom: 49px;
+}
+
+.form-achievements__item:not(:last-child) {
+  margin-bottom: 56px;
 }
 
 .form-achievements__lable {
@@ -34,6 +38,7 @@
   position: relative;
   display: block;
   padding-left: 57px;
+  margin-top: -4px;
 }
 
 .form-achievements__input-mark {
@@ -66,52 +71,6 @@
   background-image: url("../../img/tick.svg");
 }
 
-.form-platform__label {
-  position: relative;
-}
-
-.form-platform__input-description {
-  padding-left: 70px;
-}
-
-.form-platform__input-mark {
-  position: absolute;
-  width: 37px;
-  height: 37px;
-  border-radius: 50%;
-  border: 2px solid $ColorOne;
-  background-color: $backgroundColorThree;
-  cursor: pointer;
-
-  &:hover {
-    border-color: $backgroundColorOne;
-  }
-
-  &:active {
-    border-color: $textColorFour;
-  }
-}
-
-.form-platform__input[type="radio"]:checked + .form-platform__input-mark::before {
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 11px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: $textColorFour;
-}
-
-.form-platform__item {
-  margin-bottom: 36px;
-}
-
-.content-form__submit {
-  width: 280px;
-  margin: 0 auto;
-}
-
 .content-form__footnote--add {
   display: none;
 }
@@ -123,10 +82,26 @@
 
   .form-achievements__wrapper {
     width: 620px;
+    border: 2px solid $ColorOne;
   }
 
   .form-achievements__legend {
-    width: 374px;
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $backgroundColorThree;
+    margin-top: -10px;
+  }
+
+  .form-achievements__list {
+    margin-left: 59px;
+    margin-top: 48px;
+    margin-bottom: 56px;
+  }
+
+  .form-achievements__lable {
+    padding-left: 60px;
   }
 
   .content-form__form {
@@ -173,6 +148,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     height: 228px;
+    margin-left: 54px;
+    margin-top: 51px;
+    margin-bottom: -60px;
   }
 
   .form-achievements__item {
@@ -181,10 +159,6 @@
 
   .content-form__submit {
     width: 940px;
-  }
-
-  .content-form__name {
-    margin-bottom: 64px;
   }
 
   .content-form__footnote--add {

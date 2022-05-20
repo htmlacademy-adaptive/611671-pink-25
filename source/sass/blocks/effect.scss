@@ -44,11 +44,12 @@
 
   .effect__title {
     width: 168px;
-    margin-bottom: 24px;
+    margin-bottom: 11px;
+    padding-top: 41px;
   }
 
   .effect__description {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
   }
 }
 
@@ -61,6 +62,7 @@
     width: 980px;
     background-image: url("../../img/timer-desktop.png");
     min-height: 345px;
+    background-position: top left 20px;
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../img/timer-desktop@2x.png");
@@ -70,16 +72,24 @@
 
   .effect__wrapper-content {
     width: 534px;
-    margin-right: 36px;
+    margin-right: 56px;
+    padding-bottom: 106px;
   }
 
   .effect__title {
     width: 300px;
-    padding-top: 115px;
-    margin-bottom: 37px;
+    padding-top: 93px;
+    margin-bottom: 22px;
   }
 
   .effect__description {
-    margin-bottom: 47px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .effect__link {
+    font-size: 18px;
+    line-height: 30px;
   }
 }

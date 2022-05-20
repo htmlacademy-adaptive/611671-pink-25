@@ -7,14 +7,26 @@
 .main-footer__link-logo {
   margin-top: 40px;
   display: block;
-  margin-bottom: 38px;
+  margin-bottom: 29px;
 }
 
-.main-footer__logo path:hover {
+.main-footer__logo__fill:hover {
   fill: $textColorFour;
 }
 
-.main-footer__logo path:active {
+.main-footer__logo:active {
+  opacity: 0.3;
+}
+
+.main-footer__logo__fill:active {
+  fill: $backgroundColorOne;
+}
+
+.main-footer__madein-logo-fill:hover {
+  fill: $backgroundColorOne;
+}
+
+.main-footer__madein-logo:active {
   opacity: 0.3;
 }
 
@@ -24,7 +36,8 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
+  margin-left: -15px;
 }
 
 .main-footer__item {
@@ -40,10 +53,6 @@
   &:active {
     opacity: 0.1;
   }
-}
-
-.main-footer__item:not(:last-child) {
-  margin-right: 9px;
 }
 
 .main-footer__link-socials {
@@ -88,5 +97,11 @@
   .main-footer__list {
     margin-top: 71px;
     margin-bottom: 72px;
+    margin-left: 10px;
+  }
+
+  .main-footer__madein {
+    font-size: 18px;
+    line-height: 18px;
   }
 }

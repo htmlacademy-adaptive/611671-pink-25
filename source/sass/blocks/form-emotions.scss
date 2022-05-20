@@ -14,29 +14,48 @@
   line-height: 18px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 42px;
-  margin-bottom: 22px;
+  margin-top: 38px;
+  margin-bottom: 16px;
 }
 
 .form-emotions__text-field {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font: inherit;
   font-size: 18px;
   line-height: 30px;
   width: 100%;
-  min-height: 197px;
+  min-height: 200px;
+  margin-bottom: 42px;
+  padding-top: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (min-width: $tablet-width) {
   .form-emotions__wrapper {
     width: 620px;
+    border: 2px solid $ColorOne;
+  }
+
+  .form-emotions__legend {
+    margin: 0 auto;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: $backgroundColorThree;
+    margin-top: -10px;
+    margin-bottom: 37px;
   }
 
   .form-emotions__text-field {
     width: 496px;
+    min-height: 193px;
     display: block;
     margin: 0 auto;
+    border: 2px solid $ColorOne;
+    margin-bottom: 51px;
   }
 }
 
@@ -48,5 +67,7 @@
   .form-emotions__text-field {
     width: 816px;
     min-height: 124px;
+    padding-top: 10px;
+    padding-left: 16px;
   }
 }
