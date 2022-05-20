@@ -37,7 +37,7 @@
   background-color: $backgroundColorOne;
 
   &--hit {
-    background-image: url("../../img/hit.png");
+    background-image: url("../img/hit.png");
     background-repeat: no-repeat;
     background-position: top left;
   }
@@ -75,13 +75,13 @@
 }
 
 .price-for-mobile__option-check {
-  background-image: url("../../img/yes.svg");
+  background-image: url("../img/yes.svg");
   background-repeat: no-repeat;
   background-position: top 19px right 19px;
 }
 
 .price-for-mobile__option-no {
-  background-image: url("../../img/no.svg");
+  background-image: url("../img/no.svg");
   background-repeat: no-repeat;
   background-position: top 16px right 21px;
 }
@@ -100,12 +100,12 @@
 }
 
 .price__hit {
-  background-image: url("../../img/hit.png");
+  background-image: url("../img/hit.png");
   background-repeat: no-repeat;
   background-position: top left;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/hit@2x.png");
+    background-image: url("../img/hit@2x.png");
     background-size: 74px auto;
   }
 }
@@ -139,13 +139,13 @@
 }
 
 .price__option-check {
-  background-image: url("../../img/yes.svg");
+  background-image: url("../img/yes.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .price__option-no {
-  background-image: url("../../img/no.svg");
+  background-image: url("../img/no.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
