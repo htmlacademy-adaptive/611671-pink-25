@@ -1,11 +1,11 @@
 .download-app {
   background-color: $backgroundColorTwo;
-  background-image: url("../../img/back-mobile.png");
+  background-image: url("../img/back-mobile.png");
   background-repeat: no-repeat;
   background-position: top;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/back-mobile@2x.png");
+    background-image: url("../img/back-mobile@2x.png");
     background-size: 320px auto;
   }
 }
@@ -70,11 +70,11 @@
 
 @media (min-width: $tablet-width) {
   .download-app {
-    background-image: url("../../img/back-tablet.png");
+    background-image: url("../img/back-tablet.png");
     background-position: center top;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/back-tablet@2x.png");
+      background-image: url("../img/back-tablet@2x.png");
       background-size: 660px auto;
     }
   }
@@ -115,10 +115,10 @@
 
 @media (min-width: $desktop-width) {
   .download-app {
-    background-image: url("../../img/back-desktop.png");
+    background-image: url("../img/back-desktop.png");
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/back-desktop@2x.png");
+      background-image: url("../img/back-desktop@2x.png");
       background-size: 1200px auto;
     }
   }

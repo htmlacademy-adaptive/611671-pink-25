@@ -26,13 +26,13 @@
   .effect__wrapper {
     width: 620px;
     margin: 0 auto;
-    background-image: url("../../img/timer.png");
+    background-image: url("../img/timer.png");
     min-height: 276px;
     background-repeat: no-repeat;
     background-position: top left;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/timer-desktop@2x.png");
+      background-image: url("../img/timer-desktop@2x.png");
       background-size: 238px auto;
     }
   }
@@ -60,12 +60,12 @@
 
   .effect__wrapper {
     width: 980px;
-    background-image: url("../../img/timer-desktop.png");
+    background-image: url("../img/timer-desktop.png");
     min-height: 345px;
     background-position: top left 20px;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/timer-desktop@2x.png");
+      background-image: url("../img/timer-desktop@2x.png");
       background-size: 298px auto;
     }
   }

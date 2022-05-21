@@ -57,7 +57,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/crop.svg");
+    background-image: url("../img/crop.svg");
     background-repeat: no-repeat;
   }
 }
@@ -80,7 +80,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/fill.svg");
+    background-image: url("../img/fill.svg");
     background-repeat: no-repeat;
   }
 }
@@ -103,7 +103,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../../img/contrast.svg");
+    background-image: url("../img/contrast.svg");
     background-repeat: no-repeat;
   }
 }
@@ -259,7 +259,7 @@
     &::before {
       width: 22px;
       height: 22px;
-      background-image: url("../../img/crop-tablet.svg");
+      background-image: url("../img/crop-tablet.svg");
     }
   }
 
@@ -270,7 +270,7 @@
     &::before {
       width: 24px;
       height: 22px;
-      background-image: url("../../img/fill-tablet.svg");
+      background-image: url("../img/fill-tablet.svg");
     }
   }
 
@@ -281,7 +281,7 @@
     &::before {
       width: 16px;
       height: 16px;
-      background-image: url("../../img/contrast-tablet.svg");
+      background-image: url("../img/contrast-tablet.svg");
     }
   }
 
@@ -361,7 +361,7 @@
     &::before {
       width: 44px;
       height: 44px;
-      background-image: url("../../img/crop-destop.svg");
+      background-image: url("../img/crop-destop.svg");
     }
   }
 
@@ -372,7 +372,7 @@
     &::before {
       width: 48px;
       height: 43px;
-      background-image: url("../../img/fill-desktop.svg");
+      background-image: url("../img/fill-desktop.svg");
     }
   }
 
@@ -383,7 +383,7 @@
     &::before {
       width: 32px;
       height: 32px;
-      background-image: url("../../img/contrast-desktop.svg");
+      background-image: url("../img/contrast-desktop.svg");
     }
   }
 
