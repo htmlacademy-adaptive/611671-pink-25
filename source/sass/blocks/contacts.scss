@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-bottom: 36px;
 }
 
 .contacts__questions {
@@ -15,8 +16,8 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 1.2;
-  margin-top: 50px;
-  margin-bottom: 45px;
+  margin-top: 43px;
+  margin-bottom: 36px;
 }
 
 .contacts__title {
@@ -24,7 +25,12 @@
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
-  margin-bottom: 13px;
+  margin-top: 18px;
+  margin-bottom: 0;
+
+  & + p {
+    margin: 0;
+  }
 }
 
 .contacts__link {
@@ -33,7 +39,7 @@
   font-size: 24px;
   line-height: normal;
   margin: 0;
-  margin-bottom: 31px;
+  margin-bottom: 0;
 }
 
 .contacts__contact {
@@ -85,6 +91,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 20px;
   }
 
   .contacts__item p {

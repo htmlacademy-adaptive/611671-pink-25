@@ -17,6 +17,10 @@
   margin-top: 22px;
   margin-left: 20px;
   margin-bottom: 21px;
+
+  &:hover {
+    fill: $textColorFour;
+  }
 }
 
 @media (min-width: $tablet-width) {
