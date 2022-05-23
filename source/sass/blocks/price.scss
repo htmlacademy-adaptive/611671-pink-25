@@ -21,20 +21,27 @@
 
 .price-for-mobile {
   padding-top: 85px;
+  overflow: hidden;
 }
 
 .price-for-mobile__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 .price-for-mobile__item {
   text-align: center;
+  width: 280px;
+  flex-shrink: 0;
 }
 
 .price-for-mobile__title {
   background-color: $backgroundColorOne;
+  border-left: 2px solid $backgroundColorThree;
+  border-right: 2px solid $backgroundColorThree;
 
   &--hit {
     background-image: url("../img/hit.png");
@@ -50,8 +57,8 @@
   font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
-  padding-top: 19px;
-  margin-bottom: 15px;
+  padding-top: 12px;
+  margin-bottom: 0;
 }
 
 .price-for-mobile__price {
@@ -68,7 +75,7 @@
   line-height: 30px;
   text-transform: uppercase;
   text-align: left;
-  padding-top: 24px;
+  padding-top: 4px;
   padding-left: 20px;
   padding-bottom: 25px;
   border-bottom: 2px solid $ColorOne;
@@ -89,7 +96,7 @@
 .price-for-mobile__toggles {
   width: min-content;
   margin: 0 auto;
-  margin-top: 45px;
+  margin-top: 38px;
   padding-bottom: 49px;
 }
 
